@@ -1,10 +1,6 @@
 #-*- coding: utf-8 -*-
 
 class ::UserConfig
-  def self.defaults
-    @@defaults
-  end
-
   def self.configloader_pstore
     @@configloader_pstore
   end
